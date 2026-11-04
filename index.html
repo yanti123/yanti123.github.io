@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html>
-<head><meta charset="utf-8"><title>Haozhe Zhang</title></head>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haozhe Yan</title>
+<style>
+  :root { --ink:#1a1a1a; --muted:#666; --accent:#0b5fff; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 4rem 1.5rem;
+    font: 16px/1.7 -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+          "PingFang SC", "Microsoft YaHei", sans-serif;
+    color: var(--ink); background: #fbfbfc;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -.02em; }
+  .sub { color: var(--muted); margin: 0 0 .5rem; }
+  hr { border: 0; border-top: 1px solid #e7e7ea; margin: 2rem 0; }
+  h2 { font-size: .8rem; letter-spacing: .12em; text-transform: uppercase;
+       color: var(--muted); margin: 2rem 0 .5rem; font-weight: 600; }
+  ul { margin: 0; padding-left: 1.1rem; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .tag { display: inline-block; background: #eef1f7; color: #34405a;
+         border-radius: 999px; padding: .15rem .6rem; font-size: .82rem;
+         margin: .15rem .3rem .15rem 0; }
+</style>
+</head>
 <body>
-  <h2>Haozhe Yan</h2>
-  <p>Graduate Student, College of Computer and Cyber Security<br>
-     Hebei Normal University</p>
-  <p>Email: yhaozhe@stu.hebtu.edu.cn</p>
-  <p>Research: computer vision, image aesthetic assessment, deep learning</p>
+<main>
+  <h1>Haozhe Yan</h1>
+  <p class="sub">Graduate Student · Hebei Normal University</p>
+  <p class="sub">College of Computer and Cyber Security</p>
+
+  <hr>
+
+  <h2>About</h2>
+  <p>I work on computer vision, with a focus on image aesthetic assessment
+     and personalized aesthetics &mdash; how aesthetic judgement depends on
+     the person, the dataset and the criterion.</p>
+
+  <h2>Research interests</h2>
+  <p>
+    <span class="tag">computer vision</span>
+    <span class="tag">image aesthetic assessment</span>
+    <span class="tag">personalized aesthetics</span>
+    <span class="tag">deep learning</span>
+    <span class="tag">multimodal learning</span>
+  </p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:yhaozhe@stu.hebtu.edu.cn">yhaozhe@stu.hebtu.edu.cn</a></p>
+</main>
 </body>
 </html>
